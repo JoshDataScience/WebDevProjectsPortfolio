@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>[Welcome to Josh Zhu's Bio Page!]</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+
+<div style="height:175px; width:100%; clear:both;"></div>
+  <!-- empty block element added at the top of the page to push down other
+  content -->
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar" >
+          <div class="col-12 col-md-4" id="photo-container">
+          <i class="bi-house big" id="photo"></i>
+          <a href="https://module-8-11-project-milestone-1-hero-and-mi-joshzhureplit.asuwd1su21.repl.co/"> my home page </a>          
+        </div>
+      <!-- <a class="navbar-brand" href="#hero">Home</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#mission">Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#inspiration">Inspiration</a>
+            
+            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul> -->
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active " href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+</div>
+  <!-- Hero section -->
+
+  <!-- The font size should also scale based on viewport width -->
+  <section id="hero-section">
+    <!-- Start writing your hero section here. -->
+
+        <section id="hero-bootstrap" class="text-center py-5">
+          <div class="hero-container" id = "hero">
+            <div>
+            <img src="https://cdn.discordapp.com/attachments/859934421779742741/862063818859348009/unknown.png" class="img-fluid mt-5">
+            </div>
+            <!-- Using Bootstrap display classes to make responsive text -->
+            <h1 class="display-2">Josh Zhu</h1>
+            <p class="display-5"> <i>Heightening financial literacy for all!</i></p>
+          <!-- <h1 style="text-align:center">Josh Zhu</h1>
+            <p style="text-align:center">Heightening financial literary for all!</p> -->
+       <!-- <img src="https://cdn.discordapp.com/attachments/820867720190492672/859932976698884136/unknown.png" alt="prof pic"width="350" height="400" align">    -->
+       </div>
+       </section>
+        
+
+
+    <!-- <div id="profile-img"></div>
+       <img src="https://cdn.discordapp.com/attachments/820867720190492672/859932976698884136/unknown.png" alt="prof pic"width="350" height="200" align="right">   
+ <h2> </h2>
+  </section> -->
+  </section>
+<hr>
+  <!-- Skills section -->
+  <section id="projects-section">
+    <!-- Start writing your projects section here. -->
+    <h3 style="text-align:center">Projects Section</h3>   
+    <div class="projects-container" id="projects">
+      <div class="row">
+        
+        <!-- magic 8 ball -->
+        <div class= "col-12 col-md-6 col-lg-3">
+              <h4 class= "text-center">Magic 8 Ball</h4>
+              <div id="projects-img" class="text-center">
+               <a href="https://WD2-Module-7-Midterm-00-Project-Game-1-Mag-joshzhureplit.asuwd1su21.repl.co"> <img src="img/magic 8 ball icon.JPG" alt="Magic8ball." class="img-fluid" width="128" height="128"></a>
+                <div>Magic 8 Ball</div>
+              </div>
+              <p> Ask the magic 8 ball a question to consult its wisdom! </p>
+        </div>
+
+        <!-- high low game -->
+        <div class= "col-12 col-md 6 col-lg-3">          
+            <h4 class="text-center">High Low Game</h4>
+              <div id="projects-img" class="text-center">
+              <a href=" https://wd2-module-7-midterm-00-project-game-2-hig-joshzhureplit.asuwd1su21.repl.co/"><img src="img/highLowIcon.JPG" alt="HiLo" class="img-fluid" width="128" height="128"></a> 
+                <div>High Low Game</div>
+              </div>
+              <p> 5 tries to guess a randomly generated number between 1-100! </p>
+        </div>
+
+        <!-- matching game -->
+        <div class= "col-12 col-md 6 col-lg-3">
+            <h4 class="text-center">Matching Game</h4>
+              <div id="projects-img" class="text-center">
+              <a href=" https://WD2-Module-9-Final-03-Project-Game-3-Match-joshzhureplit.asuwd1su21.repl.co"><img src="img/matching game icon.JPG" alt="MatchingGame" class="img-fluid" width="128" height="128"></a>    
+                <div>Matching Game</div>
+              </div>
+              <p> Find pairs of matching cards! </p>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission-section">
+    <!-- Start writing your Mission/Meet-me section here. -->
+      <div class="mission_container" id="mission">
+        <h3 style="text-align:center">My Mission</h3>
+          <div class="container">
+            <div class="row">
+               <div class="col-6">
+             <img src="https://cdn.discordapp.com/attachments/534225523245711374/850849127276216320/unknown.png" alt="prof pic"width="400" height="200" align="right">
+            </div>
+         <div class="col-6">
+    <!-- <div class= "mission-container col-12 col-md-6">
+      <h1 class= "col-12 text-right">My Mission</h1>
+      <div class="row">
+        <div class="col-12 col-md-6 text-center img-fluid">
+          <img src="https://cdn.discordapp.com/attachments/534225523245711374/850849127276216320/unknown.png" alt="stonks guy meme" id="mission-image">
+        </div>
+        <div class= "col-12 col-md-6 text-left img-fluid"> -->
+
+    <p>My mission is to make investing and trading accessible for all and improve the financial literacy of those around me. I am an active mentor in a discord server focused on stocks trading where I provide educational content and mentorship in topics related to the financial markets.</p>
+    </div>
+      </div>
+  </section>
+<hr>
+  <!-- Skills section -->
+  <section id="skills-section">
+    <!-- Start writing your skills section here. -->
+    <h3 style="text-align:center">Skills Section</h3>   
+    <div class="skill-container" id="skills">
+      <div class="row">
+        
+        <!-- HTML -->
+        <div class= "col-12 col-md-6 col-lg-3">
+              <h4 class= "text-center">HTML5</h4>
+              <div id="skills-img" class="text-center">
+                <img src="img/html5.png" alt="HTML5 logo." class="img-fluid" width="128" height="128">
+              </div>
+              <p> HTML5 is a language I've always been quite fascinated about! This year, I finally decided to take action and take a HTML class so I can finally quench my curiosity and pick up this new skill I've always wanted to develop! </p>
+        </div>
+
+        <!-- CSS -->
+        <div class= "col-12 col-md 6 col-lg-3">          
+            <h4 class="text-center">CSS</h4>
+              <div id="skills-img" class="text-center">
+                <img src="img/css.png" alt="CSS logo." class="img-fluid" width="128" height="128">                
+              </div>
+              <p> CSS, similar to HTML, was a skill I've always been looking to pick up! I spent the majority of my waking hours on the internet everyday, so I think it makes a lot of sense to understand the tools on which the internet is built upon! </p>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class= "col-12 col-md 6 col-lg-3">
+            <h4 class="text-center">Bootstrap</h4>
+              <div id="skills-img" class="text-center">
+                <img src="img/bootstrap.png" alt="Bootstrap logo." class="img-fluid" width="128" height="128">         
+              </div>
+              <p> Bootstrap is another useful web development language that goes really hand in hand with HTML and CSS! Having a combination of all these tools in my arsenal will prepare set me up for a future as a web developer! </p>
+        </div>
+
+        <!-- Excel -->
+        <div class= "col-12 col-md 6 col-lg-3">
+            <h4 class="text-center">Excel</h4>
+              <div id="skills-img" class="text-center">
+                <img src="img/excel.png" alt="Microsoft Excel logo." class="img-fluid" width="128" height="128">         
+              </div>
+              <p> Excel is a tool I'm very comfortable and familiar with - it almost feels like a good friend of mine, considering I used to work with it on a daily basis in my prior life as a financial analyst in the corporate world. </p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration-section" >
+    <h3 style="text-align:center">Inspiration</h3>   
+    <div class="inspiration-container" id="inspiration">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cdn.discordapp.com/attachments/859934421779742741/860622045145333790/unknown.png" class="d-block w-100" alt="inspirational image 1 - garen">
+              <!-- <img src="https://picsum.photos/900/600?random=1" class="d-block w-100" alt="inspirational image 1">               -->
+              <div class="carousel-caption">
+                <h5>Mark Twain</h5>
+                <p>It's not the size of the dog in the fight, it's the size of the fight in the dog.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.discordapp.com/attachments/859934421779742741/862046482574868520/unknown.png" class="d-block w-100" alt="inspirational image 2 - veigar">
+
+             <!-- <img src="https://picsum.photos/900/600?random=2" class="d-block w-100" alt="inspirational image 2">        -->
+              <div class="carousel-caption">
+                <h5>Steve Jobs</h5>
+                <p>I want to put a ding in the universe.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.discordapp.com/attachments/859934421779742741/862047840691290163/unknown.png" class="d-block w-100" alt="inspirational image 3 - pool party">
+             <!-- <img src="https://picsum.photos/900/600?random=3" class="d-block w-100" alt="inspirational image 3">       -->
+
+              <div class="carousel-caption">
+                <h5>Steve Jobs</h5>
+                <p>Sometimes life is going to hit you in the head with a brick. Don't lose faith.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Contact Section -->
+  
+
+  <!-- still need help with level 2- making icons pop with hovering over them -->
+<section id="contact-section">
+    <div class="contact-container" id="contact">
+      <div class="row">
+        <div class="col-12">
+          <h3 style="text-align:center">Contact</h3>   
+        </div>
+      </div>
+
+      <div class="row" id="contact-distance">
+        <div class="center">
+            <div class="col-12 col-md-4 test" id="photo-container">
+              <a href="https://www.facebook.com/MisterHighlightReel/">
+                <i class="bi-facebook big bi-align-center" id="photo"></i>
+                my FB page </a>          
+            </div>
+
+            <div class="col-12 col-md-4 test" id="photo-container">
+            <a href="https://twitter.com/StonksAllDay/">           
+              <i class="bi-twitter big" id="photo"></i>
+                my Twitter page </a>
+            </div>
+
+            <div class="col-12 col-md-4 test" id="photo-container">
+              <a href="https://www.instagram.com/0hmyj0shh/">           
+                <i class="bi-instagram big" id="photo"></i>
+                  my IG page </a>          
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- See https://icons.getbootstrap.com/ -->
+    <!-- <i class="bi bi-bricks"></i> -->  
+  <!-- Footer section -->
+<footer>
+    <section id="footer-section">
+      <div class="footer-container" id="footer">
+          <h3><strong>@ Josh Zhu 2021</strong></h3>
+      </div>
+    </section> 
+</footer>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
