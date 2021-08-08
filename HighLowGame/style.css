@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+
+body {
+  height: 100vh;
+  /* background-image: linear-gradient(#DC143C, #ffe7e7); */
+  background-color:	#8A2BE2;
+  color: #FFA07A;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 150px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button {
+  background-color: greenyellow;
+  color: 	#FF00FF;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button:hover{
+  transform:scale(1.5);
+  transition: .3 ease-in-out;
+}
+
